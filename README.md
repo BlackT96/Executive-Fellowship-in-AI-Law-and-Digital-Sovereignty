@@ -1,10 +1,10 @@
 # Executive Fellowship in AI Law & Digital Sovereignty
 
-An academic curriculum and research project focused on **technology regulation in Uganda and East Africa**, covering cyber law, data protection, AI governance, and digital sovereignty with comparative perspectives from the EU, UK, US, Kenya, and South Africa.
+An academic curriculum and research project focused on **technology legal practice in Uganda and East Africa**, covering cyber law, data protection, AI governance, and digital sovereignty with comparative perspectives from the EU, UK, US, Kenya, and South Africa.
 
 ## Overview
 
-This repository contains a multi-week academic course with lectures, formative assessments, marked student work, and research papers. The curriculum is built around practical, problem-oriented learning — with particular emphasis on the **abstraction layer problem** in Ugandan tech regulation.
+This repository contains a multi-week academic course with lectures, formative assessments, marked student work, and research papers. The curriculum is built around practical, problem-oriented learning — with particular emphasis on gaps in tech regulation in Ugandan
 
 ## Key Documents
 
