@@ -4,14 +4,14 @@ An academic curriculum and research project focused on **technology legal practi
 
 ## Overview
 
-This repository contains a multi-week academic course with lectures, formative assessments, marked student work, and research papers. The curriculum is built around practical, problem-oriented learning — with particular emphasis on gaps in tech regulation in Ugandan
+This repository contains a multi-week academic course with lectures, formative assessments, and research papers. The curriculum is built around practical, problem-oriented learning — with particular emphasis on gaps in tech regulation in Uganda
 
 ## Key Documents
 
 - `latest AI law detail cirriculum.docx` — master curriculum document
-- Module notes for computer systems, internet architecture, databases, APIs, cloud computing, and SDLC
-- Formative assessments and marked student samples
-- Research papers on the abstraction layer problem, digital sovereignty, and related topics
+- Module/weekly notes
+- Formative assessments and marking guides.
+- Research papers
 
 ## AI Agent Framework (32 Agents)
 
