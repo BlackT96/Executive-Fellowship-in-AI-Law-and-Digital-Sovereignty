@@ -1,0 +1,12 @@
+Week 1: Computer Systems (Hardware, Software, OS, Networks) 1. Relevance Assessment &amp; The Missing Links Western technology textbooks assume a highly structured corporate ecosystem where hardware p
+===
+Week 2: Internet Architecture (TCP/IP, DNS, HTTP/HTTPS, Web Applications) 1. Relevance Assessment &amp; The Missing Links . Standard internet governance courses focus heavily on Western network topolo
+===
+Week 3: Databases (SQL, NoSQL, Data Warehouses) 1. Relevance Assessment &amp; The Missing Links Many standard legal definitions of a "record" assume structured, unalterable paper documents or rigid da
+===
+Week 4: APIs, Cloud Computing &amp; SDLC 1. Relevance Assessment &amp; The Missing Links The integration of digital platforms across East Africa relies heavily on Application Programming Interfaces (A
+===
+Week 5: History of AI, Machine Learning Foundations &amp; Model Evaluation 1. Relevance Assessment &amp; The Missing Links Global AI text-books treat machine learning (ML) optimization as a mathematic
+===
+Week 6: Neural Networks, Deep Learning &amp; Agentic Systems 1. Relevance Assessment &amp; The Missing Links Deep learning architectures and autonomous AI agents process complex data inputs through hi
+===

@@ -1,0 +1,308 @@
+===== Week 1 - Student A - Marked Assessment.docx =====
+FORMATIVE ASSESSMENT – MARKED SCRIPT
+Module 1: Digital Technology Fundamentals
+Week 1: Computer Systems (Hardware, Software, OS, Networks)
+
+CANDIDATE A — STUDENT SUBMISSION
+(Research Folder)
+
+Total Marks: 50
+Score: 28 / 50  —  Grade: D (56%)
+MARKING GUIDE — ANSWER KEY
+SECTION A: MULTIPLE CHOICE QUESTIONS (12 Marks)
+SECTION B: SHORT ANSWER QUESTIONS (12 Marks)
+Q4(a) – Three differences (3 marks):
+1. Hardware: Uganda uses refurbished/grey-market; West assumes standardised procurement (1 mark)
+2. Software: Uganda uses open-source OS without SLAs; West assumes vendor-supported ecosystems (1 mark)
+3. Infrastru
+Q4(b) – Implications (3 marks):
+1. Liability assignment complex due to privity of contract with refurbished parts (1 mark)
+2. Must plead implied terms under Sale of Goods Act, not just contractual warranties (1 mark)
+3. Ground case in real-world Ugan
+Q5(a) – Volatile memory types (2 marks):
+RAM (1 mark), CPU Cache (0.5), CPU Registers (0.5)
+Q5(b) – Evidence lost (2 marks):
+Open files, chat sessions, encryption keys, running processes, network connections, clipboard. Loss of system state/activity at seizure time.
+Q5(c) – Proper procedure (2 marks):
+Photograph screen, note open programs, perform live memory acquisition, proper shutdown, document chain of custody.
+SECTION C: PROBLEM QUESTIONS (18 Marks)
+Q6 – Electronic Evidence (6 marks):
+(a) Electronic Transactions Act Sections 5–8 (2 marks)
+(b) Must prove authenticity under S8(5) ETA + reliability despite crashes (2 marks)
+(c) Prosecution – S101 Evidence Act (1 mark)
+(d) Corroborative evidence, ex
+Q7 – Abstraction Layer (6 marks):
+(a) Vendor: Hardware layer; University: Software/Application layer (1 mark)
+(b) Vendor: source code, testing reports, memory profiling logs; University: server specs, OS logs, purchase agreements (2 marks)
+(c) Sale o
+Q8 – Kernel/User Mode & CMA (6 marks):
+(a) Malware starts in User Mode → exploits to Kernel Mode = full system access (2 marks)
+(b) Attacker: S12 CMA (unauthorised access), S14 (intent), S15 (modification). Employee: complicity if mens rea (2 marks)
+
+SECTION D: DRAFTING (8 Marks)
+Q9 – Technical Deposition (8 marks):
+8–10 targeted questions isolating software resource vs hardware failure. Must establish basis for fitness-for-purpose claim under Sale of Goods Act.
+CANDIDATE A: ANSWER SCRIPT WITH CORRECTIONS
+SECTION A: MULTIPLE CHOICE QUESTIONS (12 Marks)
+Q1. Your client, a manufacturing company in Kampala... At which abstraction layer did the primary failure originate?
+Student Answer: C. The hardware layer — because the CPU cache was physically damaged
+✓ FEEDBACK: CORRECT. The CPU cache is a hardware component; physical damage originates at the hardware layer. +4 marks
+Q2. Which best describes kernel mode vs user mode?
+Student Answer: B. Kernel mode grants unrestricted access; user mode restricts applications
+✓ FEEDBACK: CORRECT. Kernel mode has full system/hardware access; user mode is a restricted bubble for apps. +4 marks
+Q3. Data intercepted between internal network switch and internet router — at which component?
+Student Answer: A. The network edge — the attacker compromised a workstation
+✎ CORRECTION: INCORRECT. The correct answer is B (Network Core — compromised the router). Reason: The data was intercepted BETWEEN the switch and the router. In the network topology taught in Section 1.6.3, the router is a Network Core device (it rou
+SECTION B: SHORT ANSWER QUESTIONS (12 Marks)
+Q4. Foundation-to-Tune Analysis (6 marks)
+(a) Three differences — Ugandan vs Western tech environment: (3 marks)
+
+Student Answer 1: "Uganda's hardware industry is dominated by refurbished and used end user devices while Western tech textbooks assume users use high end devices."
+✓ Good point. Directly maps to Section 1.7.1: 'Hybrid or grey-market hardware setups.' +1 mark
+Student Answer 2: "Western textbooks look at the computer as an abstract layer of hardware, software, operating systems and networks while Uganda's legal practice treats the computer as a monolithic hardware component."
+△ Partial. This is a conceptual observation but not a direct curriculum-stated difference. Section 1.7.1 focuses on hardware procurement, software deployment, and infrastructure realities. +0.5 marks
+Student Answer 3: "Western textbooks assume ICT legal practice is developed... Ugandan legal practice relies on ancient common law causes of actions that are not alive to computing."
+✓ Valid difference. The curriculum notes Western textbooks assume structured ecosystems while Uganda lacks developed tech-specific precedent. +0.5 marks
+✎ CORRECTION: Model answers (Section 1.7.1): (1) Hybrid/grey-market hardware vs standardised procurement, (2) Open-source OS without SLAs vs vendor-supported ecosystems, (3) Erratic infrastructure vs stable networks.
+
+(b) Implications for litigator: (3 marks)
+
+Answer 1: "The implication of second hand and refurbished hardware components is that they make it difficult to assign liability as their original manufacturer could be exonerated by the rule of privity to 
+✓ Strong answer. Demonstrates understanding of privity and its impact on product liability. +1 mark
+Answer 2: "The Sale of Goods and Supply of Goods Act defines computer software as a good rather than a service... a crash caused by outdated software could be defended by saying the contract was completed at execution..."
+✓ Relevant distinction between goods and services, with practical litigation implications. +1 mark
+Answer 3: "A software product that crashes and exposes data... might only be held liable under privacy violation laws and data privacy breach but not an action of computer trespass."
+△ Partial but weak. Loses focus on product liability. The question asks specifically about a product liability case; this veers into data breach. +0 marks (credit already given for 2 strong answers)
+Q5. Memory Hierarchy & Forensics (6 marks)
+(a) Types of memory that lose data: (2 marks)
+Student Answer: "RAM & Cache. This means most system logs will be lost."
+△ PARTIAL. RAM (✓) and Cache (✓) are correct. Missing: CPU Registers (another volatile memory in the hierarchy, Section 1.3.1). The significance explanation is vague — should mention loss of open files, encryption keys, network sessions, running proc
+
+(b) Forensic significance of unplugging: (2 marks)
+Student Answer: "Loss of cache and system logs meaning that evidence as to the software and real time operating system data will be lost."
+△ Too brief. 'Cache and system logs' is incomplete. Should specifically list: open files, chat sessions, encryption keys, running processes, network connections — all critical forensic evidence lost when power is cut without preservation. +1 mark
+
+(c) Proper procedure: (2 marks)
+Student Answer: "Keeping the computer operational until a systems analyst establishes the running systems."
+✗ INADEQUATE. This does not describe the actual forensic procedure. The correct steps: (1) Photograph the screen to capture running programs/open windows, (2) Note all visible processes and files, (3) Perform live memory acquisition using forensic to
+SECTION C: PROBLEM QUESTIONS (18 Marks)
+Q6. Electronic Evidence Admissibility (6 marks)
+(a) Relevant statutory provision: (2 marks)
+Student Answer: "Section 5,6,7 and 8 of the Electronic Transactions Act."
+✓ CORRECT. The Electronic Transactions Act governs admissibility of electronic records. Precise sections identified. +2 marks
+
+(b) Legal test: (2 marks)
+Student Answer: "The prosecution must satisfy the court that the server logs are authentic. Under Section 8(5) of the ETA, it requires evidence to have come from a functional computer."
+✓ GOOD. Identified Section 8(5) ETA and the functional computer requirement. Should also mention need to prove crashes did not affect integrity/accuracy. +2 marks
+
+(c) Burden of proof: (1 mark)
+Student Answer: "Prosecution. Section 101 Evidence Act, the burden never shifts."
+✓ CORRECT. S101 Evidence Act correctly cited. +1 mark
+
+(d) Additional evidence: (1 mark)
+Student Answer: "Secondary Memory data, one that is stored on the SSD."
+△ PARTIAL. Secondary memory/SSD data is relevant but the expected answer is 'corroborative evidence' — specifically expert testimony, chain of custody documentation, system maintenance logs, audit trails. +0.5 marks
+Q7. Abstraction Layer Dispute (6 marks)
+(a) Layer each party claims: (1 mark)
+Student Answer: "The University claims the crash happened at the application layer level while the software vendor claims it happened at hardware level (memory)."
+✓ CORRECT. Clearly identifies both parties' positions. +1 mark
+
+(b) Forensic evidence to request: (2 marks)
+Student Answer: "Service logs for the software vendor. Agreement for purchase of the software. University purchase agreements of the servers to see if they are up to standards and the pre-installed RAM."
+△ PARTIAL. Purchase agreements are relevant but you also need: from Vendor — source code, software testing reports, memory profiling/logging logs; from University — OS resource monitoring logs, maintenance records. +1 mark
+
+(c) Statute for fitness for purpose: (1 mark)
+Student Answer: "Sale of goods and supply of services act cap 292 Section 15."
+△ PARTIALLY CORRECT. The Act is correct but the citation should be Cap 79 (current version). Section 15 is not the key section — Sections 40–44 (implied terms as to quality and fitness) are the relevant provisions. +0.5 marks
+
+(d) Claimant must prove: (2 marks)
+Student Answer: "The University must prove that they had installed sufficient RAM. They will need service logs to prove that the memory was not deleted in time."
+✗ WEAK. This answers the wrong question — proving sufficient RAM is the University's defence, not the test for fitness for purpose. The correct answer: Claimant must prove the goods/software were not of satisfactory quality / not fit for purpose at t
+Q8. Kernel/User Mode & CMA (6 marks)
+(a) Relevance of kernel vs user mode: (2 marks)
+Student Answer: "Kernel mode of the OS access is only limited to the hardware and CPU of the computer while user mode limits access to the application layer. When the escalation happens, access is grant
+✗ CONCEPTUAL ERROR. The escalation direction is reversed. Malware starts in User Mode (limited app access) → exploits vulnerability to escalate TO Kernel Mode (full system access). Your answer says escalation grants user mode, which is incorrect. Ker
+✎ CORRECTION: CORRECT CONCEPT: Malware first runs in User Mode (restricted) → exploits privilege escalation vulnerability to gain Kernel Mode privileges (unrestricted hardware/memory access) → bypasses OS security controls → takes full control of sys
+
+(b) Criminal liability under CMA: (2 marks)
+Student Answer: "Attacker is liable for unauthorised access under section 12 and modifying a computer under section 15."
+✓ GOOD. Correctly cites S12 and S15 CMA. Could also add S14 (access with intent to commit further offence). Mention of the employee's potential liability would strengthen this answer. +1.5 marks
+
+(c) Security measures by layer: (2 marks)
+Student Answer: [No answer provided]
+✗ NOT ANSWERED. 2 marks lost.
+✎ CORRECTION: Expected: Hardware — disable USB in BIOS; OS — patch management, disable auto-run, least-privilege policies; Application — anti-malware, whitelisting; Network — firewall, IDS/IPS, segmentation.
+SECTION D: DRAFTING (8 Marks)
+Q9. Technical Deposition Questionnaire (8 marks)
+Student's submitted questions:
+1. "What is your operating system model?"
+2. "What is the type of your operating system?"
+3. "What is the RAM of the server?"
+✗ INADEQUATE. Only 3 questions submitted (need 8–10). Questions are too basic and do not systematically isolate whether the failure was at the software resource allocation layer (OS threads/processes) or the hardware abstraction layer (RAM/CPU cache 
+✎ CORRECTION: Model Approach: Your questions must show the court whether the crash was caused by (a) software-level resource mismanagement (memory leak in code, thread exhaustion) OR (b) hardware-level constraints (insufficient RAM, CPU limits). Samp
+FINAL SCORE SUMMARY
+AREAS FOR IMPROVEMENT
+1. MCQ Strategy (Q3): Read carefully — 'between switch and router' indicates core-level interception, not edge.
+2. Memory Hierarchy (Q5): Memorise all three volatile types: Registers → Cache → RAM. Study Section 1.3.1.
+3. Forensic Procedure (Q5c): Learn the standard live-acquisition protocol: photograph → document → capture → shutdown → chain of custody.
+4. Privilege Escalation (Q8a): Study the direction of escalation. User Mode → Kernel Mode, not the reverse. Review Section 1.5.7.
+5. Complete All Parts (Q8c): Never leave a question blank — even partial knowledge earns some marks.
+6. Statutory Citations (Q7c): Use correct chapter numbers. The Sale of Goods Act is Cap 79, not Cap 292.
+7. Deposition Drafting (Q9): Minimum 8 questions. Use the sample in the marking guide as a template. Focus on systematically isolating the point of failure.
+8. Legal Tests (Q7d): Always identify all elements: (1) what must be proved, (2) by whom, (3) to what standard.
+
+
+===== Ingrid - Marked Assessment.docx =====
+FORMATIVE ASSESSMENT – MARKED SCRIPT
+Module 1: Digital Technology Fundamentals
+Week 1: Computer Systems (Hardware, Software, OS, Networks)
+
+INGRID — STUDENT SUBMISSION
+(Ingrid Week 1)
+
+Total Marks: 50
+Score: 38 / 50  —  Grade: B (76%)
+MARKING GUIDE — ANSWER KEY
+SECTION A: MULTIPLE CHOICE QUESTIONS (12 Marks)
+SECTION B: SHORT ANSWER QUESTIONS (12 Marks)
+Q4(a) – Three differences (3 marks):
+1. Institutional maturity & enforcement capacity — Western agencies have greater technical depth/resources (1 mark)
+2. Legal precedent — Western courts have developed tech-specific case law; Uganda has thin body o
+Q4(b) – Implications (3 marks):
+1. Lawyers must build self-contained case — cannot rely on institutional investigation (1 mark)
+2. Lawyers become 'legal architects' — rely on statutory interpretation, analogy, persuasive foreign authority (1 mark)
+3.
+Q5(a) – Volatile memory types (2 marks): RAM (1), CPU Cache (0.5), Registers (0.5)
+Q5(b) – Evidence lost (2 marks): Open files, chat sessions, encryption keys, network connections, processes
+Q5(c) – Proper procedure (2 marks): Photograph screen, note
+SECTION C: PROBLEM QUESTIONS (18 Marks)
+Q6 – Electronic Evidence:
+(a) Electronic Transactions Act Sections 5–8 (2 marks)
+(b) Prosecution must show reliability despite crashes — S8(5) ETA functional computer (2 marks)
+(c) Prosecution — S101 Evidence Act (1 mark)
+(d) Corroborative evidence, 
+Q7 – Abstraction Layer:
+(a) Vendor: Hardware; University: Software/Application (1 mark)
+(b) Request source code, test reports, profiling logs (vendor); server specs, OS logs, purchase records (uni) (2 marks)
+(c) Sale of Goods & Supply of Services Act
+Q8 – Kernel/User Mode & CMA:
+(a) User mode → kernel privilege escalation (2 marks)
+(b) Attacker: S12, S14, S15 CMA; Employee: complicity if intent (2 marks)
+(c) Hardware: disable USB; OS: patching/auto-run; App: AV; Network: firewall/IDS (2 marks)
+SECTION D: DRAFTING (8 Marks)
+Q9 – Technical Deposition: 8–10 targeted questions isolating software resource vs hardware failure. Must establish basis for fitness-for-purpose claim.
+INGRID: ANSWER SCRIPT WITH CORRECTIONS
+SECTION A: MULTIPLE CHOICE QUESTIONS (12 Marks)
+Q1. At which abstraction layer did the primary failure originate?
+Student Answer (highlighted): C. The hardware layer
+✓ FEEDBACK: CORRECT. CPU cache damage = hardware layer. +4 marks
+Q2. Best describes kernel mode vs user mode?
+Student Answer (highlighted): B. Kernel mode unrestricted; user mode restricted
+✓ FEEDBACK: CORRECT. +4 marks
+Q3. Interception between switch and router — at which component?
+Student Answer (highlighted): B. The network core — the attacker compromised the router
+✓ FEEDBACK: CORRECT. The router is a network core device. +4 marks
+SECTION B: SHORT ANSWER QUESTIONS (12 Marks)
+Q4. Foundation-to-Tune Analysis (6 marks)
+(a) Three differences — Ugandan vs Western: (3 marks)
+
+Answer 1: "Institutional maturity and enforcement capacity — agencies like UCC and the Personal Data Protection Office may not always have the technical depth or resources to respond swiftly."
+✓ GOOD. Directly from Section 1.7 context. +1 mark
+Answer 2: "Limited precedent in technology disputes in Uganda — unlike Western jurisdictions where courts have developed detailed case law on digital products, algorithmic harm, and platform liability, Uganda still has a thin body of technology-speci
+✓ GOOD. +1 mark
+Answer 3: "Digital infrastructure and socio-economic realities — Uganda's digital environment is still uneven. This contrasts with Western assumptions of seamless digital ecosystems."
+✓ GOOD. +0.5 marks (misses the hardware/refurbished angle from Section 1.7.1)
+
+(b) Implications for litigator: (3 marks)
+
+Answer 1: "A lawyer cannot lean back and expect institutions to carry the case. Instead, you must build a self-contained case theory, strong expert evidence, technical explanations, and tightly structured f
+✓ STRONG. Practical, insightful litigation strategy. +1 mark
+Answer 2: "As a lawyer you become more of a legal architect than a case follower. The argument depends heavily on statutory interpretation, analogy from traditional product liability, and persuasive foreign authorities."
+✓ GOOD. Clear understanding of the litigator's role. +1 mark
+Answer 3: "Your case must be grounded in real world usability, not theoretical tech standards. Even if a product behaves correctly in a technical sense, you must show the court how it failed in practice for ordinary users."
+✓ GOOD. +0.5 marks (could tie more directly to product liability)
+✓ FEEDBACK: Excellent synthesis of the Foundation-to-Tune framework. Well-articulated and practically focused.
+Q5. Memory Hierarchy & Forensics (6 marks)
+(a) Types of memory that lose data: (2 marks)
+Student Answer: "RAM (Random Access Memory), CPU Cache, CPU registers"
+✓ COMPREHENSIVE. All three volatile memory types correctly identified. +2 marks
+
+(b) Forensic significance of unplugging: (2 marks)
+Student Answer: "Unplugging the computer immediately meant the investigators cut power to a running system without preserving what was active at that moment. As a result, all volatile data in RAM wa
+✓ GOOD. Specific examples of lost evidence provided. +1.5 marks (deduct 0.5 for not explicitly stating the forensic significance — i.e., inability to reconstruct the system state at time of seizure)
+
+(c) Proper procedure: (2 marks)
+Student Answer: "Instead of immediately pulling the plug, they should have first preserved the live state, then safely transitioned to evidence collection like photograph the screen, note what programs or files were o
+✓ GOOD. Mentions photographing screen, noting open programs, chain of custody. +1.5 marks (deduct 0.5 for not mentioning live memory acquisition using forensic tools)
+SECTION C: PROBLEM QUESTIONS (18 Marks)
+Q6. Electronic Evidence Admissibility (6 marks)
+(a) Relevant statutory provision: (2 marks)
+Student Answer: "The Constitution of the Republic of Uganda 1995, Evidence Act, Electronic Transactions Act, Computer Misuse Act"
+✗ TOO BROAD. Listing multiple statutes shows uncertainty. The precise answer is the Electronic Transactions Act (Sections 5–8). The Constitution and CMA are not the governing provisions for admissibility of electronic records. +1 mark for identifying
+✎ CORRECTION: The Electronic Transactions Act is the specific legislation governing admissibility of electronic evidence. Section 8(5) allows the court to presume an electronic record was generated by a functional computer. The Computer Misuse Act de
+
+(b) Legal test: (2 marks)
+Student Answer: "The prosecution can demonstrate that the evidence was generated and stored by a reliable computer system and that any malfunction did not affect the accuracy or integrity of the record. Therefore, the prose
+✓ GOOD. Correctly identifies the need to show reliability despite malfunction. Could strengthen by citing Section 8(5) ETA specifically. +1.5 marks
+
+(c) Burden of proof: (1 mark)
+Student Answer: "Prosecution"
+✓ CORRECT. +1 mark
+
+(d) Additional evidence: (1 mark)
+Student Answer: "corroborative evidence"
+✓ CORRECT. +1 mark
+Q7. Abstraction Layer Dispute (6 marks)
+(a) Layer each party claims: (1 mark)
+Student Answer: "Insufficient RAM on the side of the University. Defective product on the side of the vendor (in case of leakage)."
+△ PARTIAL. You identified the claims but did not name the abstraction layers. The question asks you to identify the LAYER (hardware vs application/software). The vendor claims hardware layer; the university claims software/application layer. +0.5 mar
+
+(b) Forensic evidence: (2 marks)
+Student Answer: "University: server specifications, operating system logs etc. Vendor: software testing reports"
+✓ GOOD. Server specs/OS logs from university and testing reports from vendor are relevant. Could add: memory profiling logs, source code, QA documentation. +1.5 marks
+
+(c) Statute: (1 mark)
+Student Answer: "Sale of goods and supply of service act"
+✓ CORRECT. +1 mark
+
+(d) Claimant must prove: (2 marks)
+Student Answer: "That the service delivered was defective therefore not fit for purpose"
+△ PARTIALLY CORRECT. The fitness-for-purpose test is correct but incomplete. You must also prove: (i) the defect existed at the time of supply, (ii) causation between defect and damage, and (iii) if goods — they were not of satisfactory quality under
+Q8. Kernel/User Mode & CMA (6 marks)
+(a) Relevance of kernel vs user mode: (2 marks)
+Student Answer: "The malware first runs in user mode, where it has limited access to the system. It then exploits a vulnerability to gain kernel privileges, allowing it to take full control of the compu
+✓ EXCELLENT. Clear, accurate, and complete explanation of the escalation mechanism. +2 marks
+
+(b) Criminal liability under CMA: (2 marks)
+Student Answer: "The attacker and employee who inserted the USB they cannot prove the intentions to be innocent."
+△ PARTIAL. Correctly identifies the attacker and raises employee complicity. However, does not cite the specific CMA sections: S12 (unauthorised access), S14 (intent to commit further offence), S15 (modification). The phrasing 'cannot prove intention
+✎ CORRECTION: Cite specific sections: Attacker — S12 CMA (unauthorised access), S14 (access with intent), S15 (unauthorised modification). Employee — could be charged with abetting under S24 if mens rea established. The prosecution must prove guilt; 
+
+(c) Security measures by layer: (2 marks)
+Student Answer: "By disabling the use of USB devices. By putting in place end user protection to protect the privileged information."
+△ PARTIAL. Disabling USB (hardware layer) and endpoint protection (application layer) are relevant. But missed: OS layer (patch management, disable auto-run, least privilege) and Network layer (firewall, IDS/IPS, network segmentation). +1 mark
+SECTION D: DRAFTING (8 Marks)
+Q9. Technical Deposition Questionnaire (8 marks)
+Student's submitted questions:
+
+1. "For how long have you been working in this field?"
+2. "In your opinion, did the crash result from software-level resource mismanagement or from hardware constraints exceeding the system's design specifications?"
+3. "Please describe the designed operating environment for the warehouse management system."
+4. "What process and thread management model does the system use during peak operational load?"
+5. "What load testing was conducted prior to deployment?"
+6. "What were the peak concurrent user or transaction levels achieved?"
+7. "At the time of the crash, how were system resources (CPU, RAM, and thread utilization) being allocated by the operating system?"
+8. "Did the failure originate from resource exhaustion at the OS scheduling level or from hardware memory/processing limits being reached?"
+✓ GOOD EFFORT. 8 questions covering both OS/resource allocation and hardware limits. Questions 4, 7, and 8 are particularly well-targeted.
+✓ FEEDBACK: Strengths: Questions differentiate between OS/resource allocation layer and hardware layer. Strengths: Q4 (thread management), Q7 (resource allocation), Q8 (origin of failure). Areas to add: (i) Question about prior similar crashes, (ii) 
+FINAL SCORE SUMMARY
+AREAS FOR IMPROVEMENT
+1. Precision in Statutory Citation (Q6a): Name ONE specific statute and its sections. 'Electronic Transactions Act Sections 5–8' is the complete answer — no need to list multiple unrelated statutes.
+2. Name the Abstraction Layer (Q7a): The question requires you to state the layer explicitly — 'Hardware layer' and 'Application/Software layer' — not just describe the claims in general terms.
+3. Complete the Legal Test (Q7d): Fitness-for-purpose requires proving: (i) defect existed at supply, (ii) goods were not of satisfactory quality, (iii) causation between defect and damage.
+4. Cite CMA Sections (Q8b): Always reference the specific sections — S12 (unauthorised access), S14 (further offence intent), S15 (modification).
+5. Multi-Layer Security (Q8c): Cover ALL four abstraction layers: Hardware → OS → Application → Network, not just two.
+6. Strengthen Deposition Questions (Q9): Link questions directly to the Sale of Goods Act fitness-for-purpose test. Add follow-up on prior incidents and system requirement communication.
+7. Infrastructure Dimension (Q4a): Add the hardware/refurbished-equipment difference from Section 1.7.1 to round out the analysis.
+
+

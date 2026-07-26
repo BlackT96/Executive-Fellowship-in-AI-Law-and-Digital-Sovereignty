@@ -1,0 +1,44 @@
+LinkedIn Post — The Abstraction Layer Problem
+
+[Image suggestion: split graphic — left side shows a phone with layered internal structure 
+(hardware → OS → app), right side shows a gavel next to a single solid block labeled "THE LAW"]
+
+Headline (bold, max 3 lines):
+
+The EU Cyber Resilience Act is about to make thousands 
+of smartphones in Kampala stop working. Not because 
+any EU regulator intended it. Because East African law 
+defines a "computer" as a single object — when it's 
+actually six layers deep.
+
+---
+
+Body text (max 1,200 characters, 8–10 lines):
+
+Here's the problem in one story.
+
+Kibirige rides a boda boda in Kampala. He bought an entry-level Android phone. SafeBoda's app runs on it — because that's who their market is.
+
+But SafeBoda's app depends on open-source libraries, cloud SDKs, and app-store requirements governed outside Uganda. When those upstream layers raise their security baselines to comply with the EU Cyber Resilience Act, the cost of supporting older devices spikes. Eventually, the minimum requirements quietly rise. Kibirige's phone stops working.
+
+No EU regulator wrote a rule for Uganda. But the device dies anyway.
+
+I reviewed four East African ICT statutes — Uganda, Tanzania, Rwanda, Kenya. Every one defines "computer" as a single, undifferentiated object. None recognises the layered reality of hardware → firmware → OS → libraries → application.
+
+Meanwhile, our regulators operate in silos. In Uganda, UNBS handles hardware, UCC handles spectrum, and NITA-U handles software certification — all overseeing the same device with zero structural coordination.
+
+The CRA is not a threat. It's a mirror. It shows us that a law which treats a computer as one thing cannot regulate a market that is actually built in layers.
+
+We don't need to copy the CRA. We need our own answer to one question: who is responsible for which layer — and who is watching what happens when the layers above us move?
+
+Full article in the comments. I'd love to hear from regulators, tech lawyers, and anyone working on digital inclusion in East Africa.
+
+#CyberResilienceAct #DigitalSovereignty #EastAfrica #ICTLaw #TechPolicy #DigitalDivide #AbstractionLayer
+
+---
+
+Post format notes:
+- Keep paragraphs to 2 lines max (mobile reading)
+- Tag relevant people/institutions in comments, not the post body
+- Pin the article link as the first comment
+- Post between 7–9am EAT for maximum engagement (EAC timezone)
