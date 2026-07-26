@@ -15,3 +15,15 @@ desktop.ini
 *.swp
 *.swo
 *~
+
+# Private files — student assessments, records, and scripts with names
+Danson assessment week 2.docx
+Ingrid - Marked Assessment.docx
+Week 1 - Student A - Marked Assessment.docx
+Week_3_Danson_Marked.docx
+Week_3_Ingrid_Marked.docx
+Week_3_Formative_Assessment Danson Twesigomwe.docx
+Assessment_Record.docx
+Assessment_Tracker.xlsx
+mark_danson.py
+mark_ingrid.py
